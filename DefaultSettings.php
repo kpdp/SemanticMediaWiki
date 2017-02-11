@@ -1391,7 +1391,7 @@ return array(
 	# @since 2.5
 	# @default false
 	##
-	'smwgEditProtectionRight' => false,
+	'smwgEditProtectionRights' => false,
 	##
 
 	##

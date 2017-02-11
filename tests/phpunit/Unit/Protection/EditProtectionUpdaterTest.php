@@ -71,7 +71,7 @@ class EditProtectionUpdaterTest extends \PHPUnit_Framework_TestCase {
 			$this->user
 		);
 
-		$instance->setEditProtectionRight( 'Foo' );
+		$instance->setEditProtectionRights( 'Foo' );
 		$instance->doUpdateFrom( $semanticData );
 
 		$this->assertFalse(
@@ -103,7 +103,7 @@ class EditProtectionUpdaterTest extends \PHPUnit_Framework_TestCase {
 			$this->user
 		);
 
-		$instance->setEditProtectionRight( 'Foo' );
+		$instance->setEditProtectionRights( 'Foo' );
 
 		$instance->setLogger(
 			$this->spyLogger
@@ -156,7 +156,7 @@ class EditProtectionUpdaterTest extends \PHPUnit_Framework_TestCase {
 			$this->user
 		);
 
-		$instance->setEditProtectionRight( 'Foo' );
+		$instance->setEditProtectionRights( 'Foo' );
 
 		$instance->setLogger(
 			$this->spyLogger
@@ -212,7 +212,7 @@ class EditProtectionUpdaterTest extends \PHPUnit_Framework_TestCase {
 			$this->user
 		);
 
-		$instance->setEditProtectionRight( 'Foo' );
+		$instance->setEditProtectionRights( 'Foo' );
 
 		$instance->setLogger(
 			$this->spyLogger
